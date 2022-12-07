@@ -1,0 +1,193 @@
+/* General configuration */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    height: 100px;
+}
+
+nav div {
+    padding: 10px;
+    color: white;
+}
+
+nav div img {
+    width: 70px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* social media */
+
+.socialNet {
+    justify-content: center;
+    left: -30px;
+    padding: 10px;
+    margin-top: 200px;
+    color: white;
+    position: fixed;
+    font-size: 30px;
+    background-color: black;
+}
+.socialNet li{
+    list-style: none;
+}
+.socialNet li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* frontend */
+.front {
+    height: 500px;
+    background-image: url(public/images.jpg);
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.front h1{
+    color:black;
+    font-size: 45px;
+    text-align: right;
+    padding: 10px;
+    padding-top: 240px;
+    padding-right: 20%;
+}
+.front h2{
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    padding-right: 20%;
+}
+
+
+/* about me */
+
+.aboutMeMother{
+    background-color: grey;
+}
+.aboutMeMother h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color:cadetblue;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aboutMe {
+    display: flex;
+}
+
+.aboutMe .img {
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 75, 75);
+    padding: 20px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.aboutMe .img img{
+    height: 400px;
+    width: 450px;
+}
+
+.aboutMe .text {
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 75, 75);
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* work */
+.work {
+    display: flex;
+    background-color: rgb(39, 158, 164);
+    justify-content: center;
+}
+.work .text {
+    padding-top: 7%;
+    padding-left: 10%;
+}
+.work .text h3{
+    font-size: 35px;
+
+}
+.work .text button a{
+    text-decoration: none;
+    color: black;
+}
+
+.work img{
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Contact me */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+    align-items: center;
+}
+
+.contact h2 {
+    padding-top: 20px;
+    padding: 15px;
+}
+
+.contact form {
+    text-align: center;
+    background-color: rgb(152, 116, 25);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 10%;
+    margin: 15px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer li a{
+    text-decoration: none;
+    color:white
+}
